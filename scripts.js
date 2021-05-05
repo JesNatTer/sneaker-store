@@ -17,7 +17,7 @@ $(document).ready(function () {
   $("#product-slider").owlCarousel({
     items: 1,
     margin: 0,
-    stagePadding: 200,
+    stagePadding: 270,
     loop: true,
     dots: false,
     //   autoplay: true,
@@ -55,7 +55,7 @@ fetch(randomUserURL)
     //   Initialize testimonial slider
     $("#testimonial-slider").owlCarousel({
       loop: true,
-      autoplay: true,
+      // autoplay: true,
       margin: 30,
     });
   });
